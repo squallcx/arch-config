@@ -1,0 +1,63 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+! Rxvt-unicode -----------------------------------------------------------------
+URxvt.font: xft:BitstreamVeraSansMono:pixelsize=15:antialias=true:hinting=true
+URxvt.boldFont: xft:BitstreamVeraSansMono:bold:pixelsize=15:antialias=true:hinting=true
+URxvt.italicFont: xft:BitstreamVeraSansMono:italic:pixelsize=15:antialias=true:hinting=true
+URxvt.boldItalicFont: xft:BitstreamVeraSansMono:bold:italic:pixelsize=15:antialias=true:hinting=true
+
+!------------------------------------------------------------------------------
+! URXVT - Settings
+
+URxvt.saveLines: 12000
+
+
+URxvt*geometry:                                 80x25
+URxvt*borderLess:                               false
+URxvt*scrollBar:                                false
+URxvt*cursorBlink:                              true
+URxvt*cursorUnderline:                          true
+URxvt*cursorColor:                              #ffffff
+URxvt*scrollColor:                              #151515
+URxvt*perl-ext-common:                          default,matcher,clipboard,url-select,keyboard-select,vtwheel
+URxvt.underlineURLs:                            true
+URxvt*matcher.button: 1
+URxvt.url-select.launcher:                      /usr/bin/luakit
+URxvt.url-select.underline:                     true
+URxvt.url-launcher: 				google-chrome
+!------------------------------------------------------------------------------
+
+*foreground:    #ddeedd
+*background:    #131D24
+
+!black
+*color0:    #25374A
+*color8:    #3A526B
+!red
+*color1:    #BD4A4A
+*color9:    #CC6666
+!green
+*color2:    #B7CE42
+*color10:   #BDE077
+!yellow
+*color3:    #FEA63C
+*color11:   #FFE863
+!blue
+*color4:    #66AABB
+*color12:   #AACCBB
+!magenta
+*color5:    #F26B9E
+*color13:   #ff5879
+!cyan
+*color6:    #72AD8C
+*color14:   #9FE3BC
+!white
+*color7:    #DDEEDD
+*color15:   #FFFFFF
